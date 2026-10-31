@@ -135,7 +135,7 @@ Hibernate: insert into products (category,description,name,price,stock) values (
 Hibernate: select p1_0.id,p1_0.category,p1_0.description,p1_0.name,p1_0.price,p1_0.stock from products p1_0
 
 INSERT는 상품 등록, SELECT는 전체 조회 때 실행된다. 물음표는 실행할 때 값이 바인딩되는 자리이다.
-![스크린샷 2026-10-31 오후 6.18.38.png](../../../../../var/folders/wz/ml34cv516xddnp7_p4ncv79c0000gn/T/TemporaryItems/NSIRD_screencaptureui_j1kQnB/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-10-31%20%EC%98%A4%ED%9B%84%206.18.38.png)
+![실제 Hibernate INSERT 및 SELECT 로그](images/hibernate-sql.png)
 
 
 ## 5. 배포 및 환경 설정
