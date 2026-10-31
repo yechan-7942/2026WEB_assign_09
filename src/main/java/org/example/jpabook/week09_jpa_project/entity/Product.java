@@ -41,6 +41,14 @@ public class Product {
         this.description = description;
     }
 
+    public void update(String name, Integer price, String category, Integer stock, String description) {
+        this.name = name;
+        this.price = price;
+        this.category = category;
+        this.stock = stock;
+        this.description = description;
+    }
+
     public Long getId() {
         return id;
     }
